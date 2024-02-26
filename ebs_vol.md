@@ -27,3 +27,25 @@ Created snapshot
 
 ![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/ee28c66c-70c0-4c16-ba9b-51005ac60abb)
 
+Launched windows ec2 machine as shown in the picture:
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/cfeb02f7-29cd-4a22-8d06-5c0ab66c7315)
+
+Attached the EBS volume in windows EC2 machine:
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/86a7ed16-c785-4a0f-80bf-63af06161c85)
+
+Attached the EBS volune to windows machine as directed by Disk management portal make it online, Initialize Disc and create new volume, As it shows 5GB of local disc D created:
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/7db7b804-aa1a-4389-b4b2-1bf64e4a34b1)
+
+created snapshot using ebs volume:
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/982dcb34-7e08-4910-b78c-540a5dd8d4cb)
+
+Using the snapshot created volume and using that volume launced the EC2 and checked the folder(files) if exists. successfully found the folder as shown below:
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/810c27dc-e19c-4ab1-8f21-a2a24bd1ccde)
+
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/a553ed26-7094-445d-8773-dd3509088284)
