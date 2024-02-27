@@ -43,7 +43,10 @@ created snapshot using ebs volume:
 
 ![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/982dcb34-7e08-4910-b78c-540a5dd8d4cb)
 
-Using the snapshot created volume and using that volume launced the EC2 and checked the folder(files) if exists. successfully found the folder as shown below:
+Using the snapshot created volume and using that volume launced the EC2 also we can attach the same snapshot while creating the instance using snapshot ID option in add volume and checked the folder(files) if exists. successfully found the folder as shown below:
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/2bd2ce82-852c-437a-860b-6deaf4e124f8)
+
 
 ![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/810c27dc-e19c-4ab1-8f21-a2a24bd1ccde)
 
