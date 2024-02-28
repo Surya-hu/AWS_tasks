@@ -29,4 +29,30 @@ Logs were successfully created.
 
 ### Launch two ec2-instances and connect it to an application load balancer, where the output traffic from the server must be a load balancer IP address"
 
+Launched 2 ec2 instances
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/b1520c46-1e2b-495f-8cb5-2083a1979e61)
+
+Create Load Balancer:
+
+In the EC2 Dashboard, under "Load Balancing" in the navigation pane, click on "Load Balancers".  
+Click the "Create Load Balancer" button.  
+Choose the appropriate load balancer type based on your requirements (Application Load Balancer, Network Load Balancer, or Classic Load Balancer).  
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/3c0aec44-77b3-4b6a-a304-df20e84b96e2)
+
+Created Target group and associated this with instances created
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/8c242fa5-345a-4743-9127-75cfeaef1eab)
+
+
+For the testing purpose installed inginx and httpd in each servers and used the load balanacer DNS and successfully connected to the server. Load balancer worked as expected.
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/bd068298-6dfd-4632-a7fb-dd4f4a9dbd8a)
+
+![image](https://github.com/Surya-hu/AWS_tasks/assets/119995742/c89459d1-0eb9-4832-8722-a7ad21d2a398)
+
+
+
+
 
